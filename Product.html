@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Longa Vita Beati</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="HowItWorks.css">
+    <link rel="stylesheet" href="slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        })
+    </script>
+</head>
+
+<body>
+<header>
+    <img src="heart logo.png" alt="Heart Technology Logo" height="80">
+    <h2>Longa Vita Beati</h2>
+    <h3>Live Long and Happy! </h3>
+</header>
+
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+
+    <ul >
+        <li><a href="index.html" class="current">Home</a></li>
+        <li class="product"><a href="Product.html">The Product</a>
+            <ul>
+                <li><a href="HowItWorks.html">How it works</a></li>
+                <li><a href="stats.html">Statistics</a></li>
+                <li><a href="benefits.html">Benefits</a></li>
+            </ul>
+        </li>
+
+        <li class="about"><a href="AboutUS.html">About Us</a>
+            <ul >
+                <li><a href="Contact.html">Contact Information</a></li>
+            </ul>
+        </li>
+
+        <!-- <li><a href="index.html">Benefits</a></li   -->
+        <li><a href="index.html">Purchase</a></li>
+
+    </ul>
+
+</nav>
+<main>
+    <section>
+
+        <h2>General Overview</h2>
+        <p class="overview">  The micro robot specializes in plaque detection
+            and artery health in order to prevent heart related fatalities. The device is inserted into the circulatory
+            system through a vein and can pass through any liquid regardless of the viscosity while having the ability
+            to morph its form based on the size of the vein. It collects data on the depth of the plaque, the amounts,
+            its location, and the speed of blood-- all which help determine the heart attack risk level. The data collected
+            is analyzed by a cardiac specialist and relayed to the user through the application. The application allows for easy access
+            to the results and is time efficient.  </p>
+
+
+        <img src="red%20blood%20cells.jpeg" class="pic1" alt="redcells">
+        <img src="needleVein.jpeg" class="pic2" alt="needle">
+
+
+    </section>
+
+    <aside>
+
+
+    </aside>
+</main>
+<footer>
+    <p>&copy; 2019, Longa Vita Beati, Newark, NJ 07102</p>
+    <p> Eden Dubrovsky 12/4/19</p>
+</footer>
+
+</body>
+</html>

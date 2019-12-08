@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Longa Vita Beati</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stats.css">
+    <link rel="stylesheet" href="slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        })
+    </script>
+</head>
+
+<body>
+<header>
+    <img src="heart logo.png" alt="Heart Technology Logo" height="80">
+    <h2>Longa Vita Beati</h2>
+    <h3>Live Long and Happy! </h3>
+</header>
+
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+
+    <ul >
+        <li><a href="index.html" class="current">Home</a></li>
+        <li class="product"><a href="Product.html">The Product</a>
+            <ul>
+                <li><a href="HowItWorks.html">How it works</a></li>
+                <li><a href="stats.html">Statistics</a></li>
+                <li><a href="benefits.html">Benefits</a></li>
+            </ul>
+        </li>
+
+        <li class="about"><a href="AboutUS.html">About Us</a>
+            <ul >
+                <li><a href="Contact.html">Contact Information</a></li>
+            </ul>
+        </li>
+
+        <!-- <li><a href="index.html">Benefits</a></li   -->
+        <li><a href="purchase.html">Purchase</a></li>
+
+    </ul>
+
+</nav>
+<main>
+    <section>
+
+        <h2>Contact Us</h2>
+        <p> Email: customersupport@LVB.com  </p>
+        <p> Telephone: 732-839-3371 </p>
+        <p> Address: 468 Amboy Road, New Brunswick NJ</p>
+
+
+
+
+    </section>
+
+    <aside>
+        <form>
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br>
+            Questions/Comments:<br>
+            <input type="text" name="questions"><br>
+            <input type="submit" value="Submit">
+
+        </form>
+
+
+    </aside>
+</main>
+<footer>
+    <p>&copy; 2019, Longa Vita Beati, Newark, NJ 07102</p>
+    <p> Eden Dubrovsky 12/4/19</p>
+</footer>
+
+</body>
+</html>
